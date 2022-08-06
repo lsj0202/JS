@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #r div{
+            float:left;
+            width:150px;
+            height:50px;
+            margin:5px 10px;
+            padding:5px;
+            color:aliceblue;
+            background-color: blueviolet;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: lighter;
+        }
+        #r:hover div{
+            height: 200px;
+            background-color: blue;
+        }
+        #r .ease{
+            transition: 3s ease;
+        }
+        #r .ease-in-out{
+            transition: 2s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div id="r">
+        <div class="ease">안녕하세요</div>
+        <div class="ease-in-out">안녕하세요</div>
+        <embed width="800" height="500" src="https://www.youtube.com/embed/EK9GidiL6XE"></embed>
+    </div>
+</body>
+</html>
