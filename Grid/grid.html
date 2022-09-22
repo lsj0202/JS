@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: black;
+        padding:5rem;
+    }
+    .container {
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        height: 150px;
+        grid-gap:1rem;
+        grid-template-areas: 
+        'a a'
+        'b c';
+    }
+    .img{
+        width: 100%;
+        height:100%;
+        object-fit: cover;
+    }
+    .img1{
+        grid-area:a;
+    }
+    .img2{
+        grid-area:a;
+    }
+    .img3{
+        grid-area:b;
+    }
+    .img4{
+        grid-area:c;
+    }
+</style>
+<body>
+    <div class="container">
+        <img
+            src="https://w.namu.la/s/5172a67e3702bf33b32f512c1cdf0cd6308eaf75937ff6ff2ae4ed338c8ee2fdfe2fc8ac13127fc0a70de4aa3bc83660fc9368fdf89a7d84c66625f8f76ba45a43e5227745e6a19048667156d314b3985c278d3a8663b7b1bcc28303ee017ee1"
+            alt="dora"
+            class="img img1"
+        />
+        <img
+            src="https://w.namu.la/s/5172a67e3702bf33b32f512c1cdf0cd6308eaf75937ff6ff2ae4ed338c8ee2fdfe2fc8ac13127fc0a70de4aa3bc83660fc9368fdf89a7d84c66625f8f76ba45a43e5227745e6a19048667156d314b3985c278d3a8663b7b1bcc28303ee017ee1"
+            alt="dora"
+            class="img img2"
+        />
+        <img
+            src="https://w.namu.la/s/5172a67e3702bf33b32f512c1cdf0cd6308eaf75937ff6ff2ae4ed338c8ee2fdfe2fc8ac13127fc0a70de4aa3bc83660fc9368fdf89a7d84c66625f8f76ba45a43e5227745e6a19048667156d314b3985c278d3a8663b7b1bcc28303ee017ee1"
+            alt="dora"
+            class="img img3"
+        />
+        <img
+            src="https://w.namu.la/s/5172a67e3702bf33b32f512c1cdf0cd6308eaf75937ff6ff2ae4ed338c8ee2fdfe2fc8ac13127fc0a70de4aa3bc83660fc9368fdf89a7d84c66625f8f76ba45a43e5227745e6a19048667156d314b3985c278d3a8663b7b1bcc28303ee017ee1"
+            alt="dora"
+            class="img img4"
+        />
+    </div>
+</body>
+</html>
